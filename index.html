@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAZETTE EDITION 1</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div id="blog">
+
+        <div id="note">
+            <div id="notehead">
+                <div id="noteemoji">
+                    <img src="https://i.imgur.com/pZNXfQx.png" class="emoji" />
+                    <img src="https://i.imgur.com/31hMSxG.png" class="emoji" />
+                    <img src="https://i.imgur.com/8c3oo9o.png" class="emoji" />
+                </div>
+                <div id="noteclose"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                        class="bi bi-x-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+            <div id="notetitle">leader·euse des soleils</div>
+            <div id="notetxt">
+                · dans la trentaine <br />
+                · porté·e disparu·e depuis fin décembre<br />
+                · cheveux bruns<br />
+                · doudoune noire sans manche, bonnet, pantalon noir<br />
+                · y a-t-il un·e remplaçant·e ? (bras droit ?)<br />
+                · vu·e pour la dernière fois au Chat piteau<br />
+                · quelle est l'implication des brumes dans l'affaire ?<br />
+                · les diplomates y sont-iels pour quelque chose ?
+            </div>
+        </div>
+
+
+        <div id="opennote">
+            <div id="opennotehead">
+                <div id="opennoteronds">
+                    <div class="btnrond1"></div>
+                    <div class="btnrond2"></div>
+                    <div class="btnrond3"></div>
+                </div>
+                <div id="opennoteclose"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                        fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+            <div id="opennotetxt">LE SOLEIL S’EST COUCHÉ SUR LA VILLE, IL A TIRÉ SA RÉVÉRENCE... <span
+                    id="opennoteclignote">|</span> </div>
+        </div>
+
+        <div class="box box-3">
+            <div id="msg">
+                <div id="msghead">
+                    <div id="msgback">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                            class="bi bi-chevron-left" id="msgbackcircle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                        </svg>
+                    </div>
+                    <div id="msgcontact"> <img src="https://i.imgur.com/hCu5hSg.png" class="emoji" /> numéro inconnu
+                    </div>
+                    <div id="msgclose"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                            fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path
+                                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div id="msgdate">sam. 1 Janvier à 12:02</div>
+                <div id="msgconv">
+                    <div class="msg1">
+                        <div class="msgreac">
+                            <div class="rond1"><img src="https://i.imgur.com/Pv8De25.png" class="emoji" /></div>
+                            <div class="rond2"></div>
+                            <div class="rond3"></div>
+                        </div>
+
+                        <img src="https://i.imgur.com/Smbf6P9.png" id="msgimg1" />
+
+                        <div class="msgheure1">12:02 <svg class="msgicon" xmlns="http://www.w3.org/2000/svg" width="12"
+                                height="12" fill="currentColor" class="bi bi-file-earmark-check" viewBox="0 0 16 16">
+                                <path
+                                    d="M10.854 7.854a.5.5 0 0 0-.708-.708L7.5 9.793 6.354 8.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+                                <path
+                                    d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="msg2grp">
+                        <div class="msg2">
+                            ????<br />
+                            est-ce que j’ai l’air de comprendre ??<br />
+                            C’est super flou............. <img src="https://i.imgur.com/kwJQbYk.png"
+                                class="emoji" /><img src="https://i.imgur.com/kwJQbYk.png" class="emoji" /><img
+                                src="https://i.imgur.com/kwJQbYk.png" class="emoji" /><img
+                                src="https://i.imgur.com/kwJQbYk.png" class="emoji" />
+                        </div>
+                        <div class="msgheure2">12:04 <svg class="msgicon" xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                <path
+                                    d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="msg3grp">
+                        <div class="msg3">
+                            Retiens juste que son autorité était contestée par plusieurs membres dernièrement et ce, de
+                            manière publique.
+                        </div>
+                    </div>
+                    <div class="msg4">
+                        <div class="msgreac">
+                            <div class="rond1"><img src="https://i.imgur.com/Pv8De25.png" class="emoji" /></div>
+                            <div class="rond2"></div>
+                            <div class="rond3"></div>
+                        </div>
+
+                        <img src="https://i.imgur.com/fpL8eMM.png" id="msgimg2" />
+
+                        <div class="msgheure1">12:14 <svg class="msgicon" xmlns="http://www.w3.org/2000/svg" width="12"
+                                height="12" fill="currentColor" class="bi bi-file-earmark-check" viewBox="0 0 16 16">
+                                <path
+                                    d="M10.854 7.854a.5.5 0 0 0-.708-.708L7.5 9.793 6.354 8.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+                                <path
+                                    d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="msg2grp">
+                        <div class="msg2">
+                            JE. NE. COMPRENDS. PAS.<br />
+                            Ça veut dire quoi ça ??
+                        </div>
+                        <div class="msgheure2">12:15 <svg class="msgicon" xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                <path
+                                    d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div id="msgtype">attends ce serait pas <div id="msgclignote">|</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="video">
+            <div id="videohead">
+                <div id="videotitle">GENCAM21.MOV</div>
+                <div id="videoclose"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                        class="bi bi-x-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+
+            <audio controls="" id="videolecteur">
+                <source src="https://www.cjoint.com/doc/22_01/LAluCDcR4Ls_dispute-audio.mp3" type="audio/mpeg">
+                <source src="/assets_tutorials/media/Loreena_Mckennitt_Snow_56bit.ogg" type="audio/ogg"> Votre
+                navigateur ne supporte pas la balise audio.
+            </audio>
+        </div>
+
+        <div id="insta">
+            <div id="instahead">
+                <div id="instatitle"> MAIRIE (fête)</div>
+                <div id="instaclose"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                        class="bi bi-x-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+            <div id="instagrpphoto">
+                <img src="https://i.imgur.com/fLTF6Au.png" class="instaphoto" />
+                <img src="https://i.imgur.com/gWHHipC.jpg" class="instaphoto" />
+                <img src="https://i.imgur.com/ZHRgkzT.jpg" class="instaphoto" />
+                <img src="https://i.imgur.com/AWtBzI7.png" class="instaphoto" />
+                <img src="https://i.imgur.com/DuOrCAj.jpg" class="instaphoto" />
+                <img src="https://i.imgur.com/cUxqQPC.png" class="instaphoto" />
+                <img src="https://i.imgur.com/YSr2jxd.png" class="instaphoto" />
+                <img src="https://i.imgur.com/pqhOV9X.jpg" class="instaphoto" />
+                <img src="https://i.imgur.com/ufZdUD3.png" class="instaphoto" />
+                <img src="https://i.imgur.com/5uqPkMN.png" class="instaphoto" />
+                <img src="https://i.imgur.com/UP3TXzI.png" class="instaphoto" />
+                <img src="https://i.imgur.com/RMFrY50.jpg" class="instaphoto" />
+            </div>
+        </div>
+
+
+        <div id="retrans">
+            <div id="retranshead">
+                <div id="opennoteronds">
+                    <div class="btnrond1"></div>
+                    <div class="btnrond2"></div>
+                    <div class="btnrond3"></div>
+                </div>
+                <div id="retransclose"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                        fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+            </div>
+            <div id="retranstxt">
+
+                RETRANSCRIPTION DE LA VIDÉO :<br /><br />
+
+                <strong>Personne A</strong> : C’est ma chance de faire enfin quelque chose qui a vraiment du sens !
+                <br /> <br />
+                <strong>Personne B </strong> : Du sens pour qui ? T’as eu une carrière…. Tu fais seulement ça parce que
+                tu veux te sentir important à nouveau ! Eh bien, devine quoi ? Il y a des milliards de gens qui se
+                battent tous les jours pour l’être, et toi tu t'en rends même pas compte !
+                <br /> <br />
+                Il se passe ici des choses, des choses que tu choisis d'ignorer dans un monde qui ne sait même pas qui
+                tu es ! Mais tu te prends pour qui putain ? Tu n’existes pas !
+                <br /> <br />
+                Tu fais juste ça parce que t’es mort de peur, comme nous tous, de ne pas compter, d'être oublié, et tu
+                sais quoi ? T’as raison, t’es insignifiant ! Ce n’est pas important tout ça, TU n’es pas important !
+                Fais toi une raison !
+
+
+            </div>
+        </div>
+
+        <div id="comm">
+            <div id="commhead">
+                <div id="commclose"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                        class="bi bi-x-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </div>
+                <div id="commtitle">COMMENTAIRES</div>
+                <svg id="commsend" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                    class="bi bi-send" viewBox="0 0 16 16">
+                    <path
+                        d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                </svg>
+            </div>
+
+            <div class="commentairegrp">
+                <img src="https://i.imgur.com/OswJCit.jpg" class="commentaireimg" />
+                <div class="commentairessgrp">
+                    <div class="commentairetxt">
+                        <strong>ATOS</strong> Un·e responsable de district se montre pas et ça y est, ça part dans les
+                        théories du complot... Ça va le chômage, vous le vivez bien ?
+                    </div>
+                    <div class="commgrpheurerep">
+                        <div>il y a 10h</div>
+                        <div>Répondre</div>
+                    </div>
+                </div>
+            </div>
+            <div class="commentairegrp">
+                <img src="https://i.imgur.com/jRPoFHs.jpg" class="commentaireimg" />
+                <div class="commentairessgrp">
+                    <div class="commentairetxt2">
+                        <strong>PINKISTHENEWBLACK</strong> Moi j’ai entendu que la dernière fois qu’iel est apparu
+                        c’était pas au Chat Piteau mais au Temple des Astres. À bon entendeur <img
+                            src="https://i.imgur.com/hz3bnpV.png" class="emoji" />
+                    </div>
+                    <div class="commgrpheurerep">
+                        <div>il y a 7h</div>
+                        <div>Répondre</div>
+                    </div>
+                </div>
+                <svg class="like" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-heart" viewBox="0 0 16 16">
+                    <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg>
+            </div>
+            <div class="commentairegrp">
+                <img src="https://64.media.tumblr.com/91bd792650536cd50b48d95108104b36/tumblr_pp70m6Nyea1sncr8bo3_250.gifv"
+                    class="commentaireimg" />
+                <div class="commentairessgrp">
+                    <div class="commentairetxt2">
+                        <strong>AGREUGREU</strong> <img src="https://i.imgur.com/6ES2bz0.png" class="emoji" /><img
+                            src="https://i.imgur.com/oSjcaSQ.png" class="emoji" /> trop choqué srx j’espère qu’on le
+                        retrouvera !!!!!!!
+                    </div>
+                    <div class="commgrpheurerep">
+                        <div>il y a 5h</div>
+                        <div>Répondre</div>
+                    </div>
+                </div>
+                <svg class="like" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-heart" viewBox="0 0 16 16">
+                    <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg>
+            </div>
+            <div class="commentairegrp">
+                <img src="https://i.imgur.com/y78GOfD.jpg" class="commentaireimg" />
+                <div class="commentairessgrp">
+                    <div class="commentairetxt2">
+                        <strong>CREVETTE</strong> C’est triste... mais bon faut pas s’étonner quand on traîne autant
+                        dans les extérieurs de la ville.... Genesis est pas tjrs aussi safe que ça paraît.......
+                    </div>
+                    <div class="commgrpheurerep">
+                        <div>il y a 5h</div>
+                        <div>Répondre</div>
+                    </div>
+                    <div class="commvoirrep">
+                        <div class="barrerep"></div>
+                        <div> voir 2 réponses</div>
+                    </div>
+                </div>
+                <svg class="like" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-heart" viewBox="0 0 16 16">
+                    <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg>
+            </div>
+
+            <div class="commentairegrp">
+                <img src="https://i.imgur.com/QBCFQuW.jpg" class="commentaireimg" />
+                <div class="commentairessgrp">
+                    <div class="commentairetxt2">
+                        <strong>CORPO_RAT(E)</strong>
+                        BRAVO !! <img src="https://i.imgur.com/GbroPcC.png" class="emoji" /><img
+                            src="https://i.imgur.com/wL4fgPn.png" class="emoji" /><img
+                            src="https://i.imgur.com/WLYNVxM.png" class="emoji" /><img
+                            src="https://i.imgur.com/jdArn8A.png"
+                            class="emoji" /><br />-------------------------------------<br />
+                        Vous avez gagné un CPhone 14 ! <img src="https://i.imgur.com/K3ZLswx.png" class="emoji" /><img
+                            src="https://i.imgur.com/K3ZLswx.png" class="emoji" /><img
+                            src="https://i.imgur.com/K3ZLswx.png" class="emoji" /><img
+                            src="https://i.imgur.com/K3ZLswx.png" class="emoji" /><br />
+                        Pour récupérer votre prix, envoyez “DISPARITION” dans nos dm !!!!!!<br />
+                        -------------------------------------<br />
+                        #offredeouf #cvraimentvrai #ad
+                    </div>
+                    <div class="commifjm">
+                        <div>il y a 5min</div>
+                        <div>1 j'aime</div>
+                        <div>Répondre</div>
+                    </div>
+                </div>
+                <svg class="like" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-heart" viewBox="0 0 16 16">
+                    <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
